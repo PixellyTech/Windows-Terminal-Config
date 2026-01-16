@@ -1,1 +1,1 @@
-# Windows-Terminal-Config
+# Windows Terminal Config
