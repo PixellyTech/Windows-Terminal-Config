@@ -1,0 +1,12 @@
+# "eza" Alias
+Function EzaLS {eza -al --color=always --icons --group-directories-first} # Long list including hidden files
+Function EzaLA {eza -a --color=always --icons --group-directories-first}  # List all files including hidden
+Function EzaLL {eza -l --color=always --icons --group-directories-first}  # Long listing format
+Function EzaLT {eza -aT --color=always --icons --group-directories-first} # Tree view including hidden files
+Function EzaL. {eza -a | Select-String "^\."} # Show only files/directories starting with a dot (hidden dotfiles)
+
+Set-Alias -Name ls -Value EzaLS
+Set-Alias -Name la -Value EzaLA
+Set-Alias -Name ll -Value EzaLL
+Set-Alias -Name lt -Value EzaLT
+Set-Alias -Name l. -Value EzaL.
