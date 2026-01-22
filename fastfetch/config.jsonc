@@ -77,7 +77,7 @@
             "key": "{#keys}",
             "type": "colors",
             "symbol": "circle",
-            "paddingLeft": 13,
+            "paddingLeft": 8,
         },
     ],
 }
